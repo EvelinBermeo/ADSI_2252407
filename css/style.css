@@ -51,7 +51,7 @@ h1,h2  {
     }
     span.resaltado {
         font-size: 2em;
-        color: rgb(52, 14, 221);
+        color: rgb(14, 221, 135);
         font-weight: italic;
         font-family: 'Bellota', serif;
     }
@@ -74,6 +74,8 @@ h1,h2  {
        text-decoration: none;
        font-weight: bolder;
        font-size: 2em;
+       font-family: 'Bellota';
+       color: rgb(52, 14, 221);
    }
 
 /* bellota-regular - latin */
