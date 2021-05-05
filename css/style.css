@@ -158,9 +158,9 @@ h1,h2  {
 .estilo-enlace{
     font-size: 1.5em;
     color: rgb(74, 76, 184);
-    display: line;
+   
     float: left;
-        margin-right:20px
+    margin-right:20px
 
   }
 a{
