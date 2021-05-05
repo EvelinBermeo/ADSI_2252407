@@ -68,7 +68,7 @@ h1,h2  {
     }
     span.resaltado {
         font-size: 2em;
-        color: rgb(14, 221, 135);
+        color: rgb(74, 76, 184);
         font-weight: italic;
         font-family: 'Bellota', serif;
     }
@@ -156,7 +156,12 @@ h1,h2  {
 }
 
 .estilo-enlace{
-    font-size: 2em;
+    font-size: 1.5em;
+    color: rgb(74, 76, 184);
+    display: line;
+    float: left;
+        margin-right:20px
+
   }
 a{
     text-decoration: none;
