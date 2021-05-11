@@ -17,9 +17,33 @@ h1,h2  {
     background: rgb(255, 255, 253);
 }
 
+.items-menu{
+    display: inline;
+    margin-left: 45px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.list-menu{
+    font-family: 'Bellota';
+    font-size: 0.4em;
+    text-align: right;
+    background: rgb(230, 227, 217);
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+
+
     .pos-left{
         float: left;
-        margin-right:20px ;
+        margin-right:10px ;
+        text-align: left;
+        text-decoration: none;
+        list-style: none;
     }
     
         
@@ -158,14 +182,19 @@ h1,h2  {
 .estilo-enlace{
     font-size: 1.5em;
     color: rgb(74, 76, 184);
-   
+    text-decoration: none;
+    list-style: none;
     float: left;
-    margin-right:20px
+    margin-right:20px;
+    text-align: left;
+    color: black;
+    
 
   }
 a{
     text-decoration: none;
     list-style: none;
+    color: black;
 }  
 
 
