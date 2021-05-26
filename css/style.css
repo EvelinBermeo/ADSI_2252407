@@ -16,8 +16,8 @@ h1,h2  {
     font-size: 1.2em;
     background: rgb(255, 255, 253);
 }
-
-.items-menu{
+.items-menu
+{
     display: inline;
     margin-left: 45px;
     text-decoration: none;
@@ -25,7 +25,8 @@ h1,h2  {
     
 }
 
-.list-menu{
+.list-menu
+{
     font-family: 'Bellota';
     font-size: 0.4em;
     text-align: right;
@@ -36,8 +37,6 @@ h1,h2  {
     color: black;
 
 }
-
-
     .pos-left{
         float: left;
         margin-right:10px ;

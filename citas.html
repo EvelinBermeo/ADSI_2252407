@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/citas.css">
+    <title>CITAS MEDICAS</title>
+</head>
+<body>
+    <ul class= "list-menu">
+        <li class="items-menu"><li class="items-menu"><a href="index.html"> Inicio</a></li>
+        <li class="items-menu">Nuestra Empresa</li>
+        <li class="items-menu">Ventas Teléfonicas</li>
+        <li class="items-menu">Pedidos en linea</li>
+        <li class="items-menu">Acerca de</li>
+        <li class="items-menu"><a href="citas.html" ></a> Citas</li>
+        <li class="items-menu"><a href="contactenos.html" > Contáctenos</li></a>
+         
+    </ul>
+    <h1>Formulario de citas medicas</h1>
+    <form action="" method="get">
+        
+        <fieldset>
+            <Legend>Información de la cita</Legend>
+            <br>
+                 <input type="text" name="nombres" placeholder="Nombre del paciente" class="input-width"><br><br>
+                 <input type="text" name="apellidos" placeholder="Apellido del paciente" class="input-width"><br><br>
+
+                      <br>
+      Elije Tipo de documento<br>
+            <select name="Tipo" class="input-width">
+                  <option value="CC">Cédula de ciudadanía</option>
+                  <option value="TI">Tarjeta de Identidad</option>
+                  <option value="RC">Registro Civil</option>
+                  <option value="P">Pasaporte</option>
+                  <option value="CE">Cédula de extrangería</option> 
+             </select>
+                     <br>
+      Número de documento 
+                 <input type="text" name="Documento" placeholder="Ingrese número de documento" class="input-width">
+                     <br><br>   
+      Medicos disponibles
+                    <br>
+                  <input type="checkbox" name="Médico" value="Médico">Héctor Abad Gómez<br>
+                  <input type="checkbox" name="Médico" value="Médico">Carlos Albán<br>
+                  <input type="checkbox" name="Médico" value="Médico">Dionisio Herrera<br>
+                  <input type="checkbox" name="Médico" value="Médico">Carlos Enrique Awad<br>
+                  <input type="checkbox" name="Médico" value="Médico">Juanita Arango<br> <br>
+
+     Horario de citas <br>
+                  
+     <input type="radio" name="Horario" value="Mañana">Mañana de (8am-12pm)<br>
+     <input type="radio" name="Horario" value="Tarde">Tarde de (2pm-5pm)<br>
+     <input type="radio" name="Horario" value="Mañana-Tarde">Mañana-Tarde<br><br>
+
+     <input type="submit" value="Enviar">   
+</fieldset>
+         <table>
+              <caption>Tabla con información</caption>
+              <tr>
+                 <th>Día</th>
+                 <th>Horario</th>
+                 <th>Médico</th>
+                 <th>IPS</th>
+             </tr>
+             <tr>
+                 <td>26/05/2021</td>
+                 <td>8:00am</td>
+                 <td>Juanita Arango</td>
+                 <td>Pitalito</td>
+             </tr>
+             <tr>
+                <td>02/06/2021</td>
+                <td>10:00am</td>
+                <td>Dionisio Herrera</td>
+                <td>Elias</td>
+            </tr>
+ 
+            <tr>
+                <td>02/06/2021</td>
+                <td>10:00am</td>
+                <td>Dionisio Herrera</td>
+                <td>San Agustin</td>
+                
+            </tr>
+            <tr>
+                <td>12/06/2021</td>
+                <td>2:00pm</td>
+                <td>Carlos Enrique</td>
+                <td>Neiva</td>
+            </tr>
+            <tr>
+                <td>25/06/2021</td>
+                <td>5:00pm</td>
+                <td>Carlos Alban</td>
+                <td>Garzón</td>
+            </tr>
+</table>
+<tbody>
+<tr></tr>
+
+
+</tbody>
+
+
+
+ </table>
+</body>
+</html>
