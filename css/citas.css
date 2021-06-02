@@ -14,19 +14,10 @@ legend{
     padding: 8px;
     border-radius: 7px;
 }
-.items-menu
-{
-    display: inline;
-    margin-left: 45px;
-    text-decoration: none;
-    list-style: none;
-    
-}
-
 .list-menu
 {
     font-family: 'Bellota';
-    font-size:0.8em;
+    font-size: 1em;
     font-weight: bold;
     text-align: right;
     background: rgb(230, 227, 217);
@@ -36,6 +27,16 @@ legend{
     color: black;
 
 }
+.items-menu
+{
+    display: inline;
+    margin-left: 45px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
 a{
     text-decoration: none;
     list-style: none;
@@ -69,9 +70,7 @@ caption{
         border: solid gray;
     
     }
-    .div-tabla{
-      text-align: center;
-    }
+   
     
     /* bellota-regular - latin */
 @font-face {

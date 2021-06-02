@@ -33,8 +33,8 @@ legend{
 
 .list-menu
 { font-family: 'Bellota';
-    
-    font-size: 0.8em;
+    width: 100%;
+    font-size: 1em;
     text-align: right;
     background: rgb(230, 227, 217);
     padding: 10px;

@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
 h1{
     text-align: center;
 }
@@ -9,6 +16,27 @@ table{
     border-collapse: collapse;
     text-align: center;
     border-radius: 0 0 10px 10px;
+}
+.list-menu
+{
+    font-family: 'Bellota';
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+    background: rgb(230, 227, 217);
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+.items-menu
+{
+    display: inline;
+    margin-left: 45px;
+    text-decoration: none;
+    list-style: none;
+    
 }
 caption{
     padding-top: 20px;
@@ -60,4 +88,17 @@ td{
     text-align: justify;
   
 }
-
+ /* bellota-regular - latin */
+ @font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 400;
+    
+    src: url('../fonts/bellota-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bellota-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bellota-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bellota-v2-latin-regular.svg#Bellota') format('svg'); /* Legacy iOS */
+  }

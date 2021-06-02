@@ -9,37 +9,40 @@ body {
     text-align: center;
    
 }
-
-
-
-.items-menu
-{
-    display: inline;
-    font-weight: bold;
-    margin-left: 45px;
-    font-size: 1px;
-    text-decoration: none;
-    list-style: none;
-    
-}
-
-.list-menu
-{
-    font-family: 'Bellota';
-    font-size: -0.8em;
-    text-align: right;
-    background: rgb(230, 227, 217);
-    padding: 10px;
-    text-decoration: none;
-    list-style: none;
-    color: black;
-
-}
 h1,h2  {  
     text-align: center;
     font-style: 'italica';
-    font-size: 1.5em;
+    font-size: 1em;
     background: rgb(255, 255, 253);
+}
+
+
+
+.list-menu
+{ font-family: 'Bellota';
+    
+    font-size: 0.5em;
+    text-align: right;
+    background: rgb(230, 227, 217);
+    padding: 11px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    
+
+}
+.items-menu
+{
+    display: inline-block;
+    font-weight:0.8em ;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 1em;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    
 }
 
     .pos-left{
