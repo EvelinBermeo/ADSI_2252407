@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-style: 'italica';
+    font-size: 2.3em;
+    background: rgb(255, 255, 253);
+    padding-top: 15px;
+    font-family: 'Bellota';
+    
+}
+h2{
+    font-size: 2em;
+
+}
+.texto{
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content-main{
+    margin-top: 1;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.content-1{
+    background: white;
+    width: 23%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    
+    
+}
+.content-2{
+    background: white;
+    width: 23%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content-3{
+    background: white;
+    width: 23%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content-4{
+    background: white;
+    width: 23%;
+    height: 600px;
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+}
+.items-menu
+{
+    display: inline;
+    margin-left: 45px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.list-menu
+{
+    font-family: 'Bellota';
+    font-size: 0.8em;
+    text-align: right;
+    background: rgb(230, 227, 217);
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+
+
+/* bellota-regular - latin */
+@font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 400;
+    
+    src: url('../fonts/bellota-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bellota-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bellota-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bellota-v2-latin-regular.svg#Bellota') format('svg'); /* Legacy iOS */
+  }
