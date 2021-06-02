@@ -2,6 +2,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
+
 }
 h1 {
     text-align: center;
@@ -37,7 +38,7 @@ legend{
     font-size: 1em;
     text-align: right;
     background: rgb(230, 227, 217);
-    padding: 10px;
+   
     text-decoration: none;
     list-style: none;
     color: black;
@@ -48,6 +49,7 @@ legend{
 {
     display: inline-block;
     font-weight:0.8em ;
+    width: 100%;
     font-weight: bold;
     margin-left: 45px;
     font-size: 1em;
