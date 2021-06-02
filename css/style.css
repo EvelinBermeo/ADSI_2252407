@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
 
 body {
     background-color: #e6eaf5;
@@ -6,20 +11,13 @@ body {
 }
 
 
-*{
-    padding: 0px;
-    margin: 0px;
-}
-h1,h2  {  
-    text-align: center;
-    font-style: 'italica';
-    font-size: 1.2em;
-    background: rgb(255, 255, 253);
-}
+
 .items-menu
 {
     display: inline;
+    font-weight: bold;
     margin-left: 45px;
+    font-size: 1px;
     text-decoration: none;
     list-style: none;
     
@@ -28,7 +26,7 @@ h1,h2  {
 .list-menu
 {
     font-family: 'Bellota';
-    font-size: 0.4em;
+    font-size: -0.8em;
     text-align: right;
     background: rgb(230, 227, 217);
     padding: 10px;
@@ -37,6 +35,13 @@ h1,h2  {
     color: black;
 
 }
+h1,h2  {  
+    text-align: center;
+    font-style: 'italica';
+    font-size: 1.5em;
+    background: rgb(255, 255, 253);
+}
+
     .pos-left{
         float: left;
         margin-right:10px ;
