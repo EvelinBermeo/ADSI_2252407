@@ -2,6 +2,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
+    margin: 0%;
 
 }
 h1 {
@@ -33,32 +34,29 @@ legend{
 
 
 .list-menu
-{ font-family: 'Bellota';
-    width: 100%;
+{
+    font-family: 'Bellota';
     font-size: 1em;
     text-align: right;
     background: rgb(230, 227, 217);
-   
+    padding: 10px;
     text-decoration: none;
     list-style: none;
     color: black;
-    
 
 }
 .items-menu
 {
-    display: inline-block;
+    display: inline;
     font-weight:0.8em ;
-    width: 100%;
     font-weight: bold;
     margin-left: 45px;
     font-size: 1em;
     text-decoration: none;
     list-style: none;
     
-    
-    
 }
+
 
 
 /* bellota-regular - latin */
