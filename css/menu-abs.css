@@ -1,0 +1,16 @@
+
+
+
+
+#nav-bar{
+    background: aqua;
+    color: darkblue;
+    font-size: 2em;
+    text-align:right ;
+}
+
+.items-menu{
+    padding: 2px;
+    display: inline-block;
+    
+}
