@@ -14,6 +14,8 @@ h1  {
     font-style: 'italica';
     font-size: 1.3em;
     background: rgb(221, 221, 199);
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 .content-nav-bar
@@ -81,6 +83,7 @@ h1  {
         text-align: left;
         text-decoration: none;
         list-style: none;
+        font-family: 'Oswald';
         
     }
     
