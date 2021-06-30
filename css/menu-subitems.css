@@ -1,84 +1,54 @@
-
-
-h1
+*
 {
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-body
+nav
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 0;
-    
+    font-size: 1.5em;
+    background: darkcyan;
 }
 
 nav ul
 {
     list-style: none;
-    
-}
-
-nav li
-{
-    line-height: 2.5em;
-    position: relative;
-        
-}
-
-nav a
-{
-    color: white;
-    text-decoration: none;
-    padding: 0 2em;
-    display: block;
-
-    
-
-
-}
-.menu 
-{
-    width: 100%;
-    background-color: darkcyan;
+    padding: 0;
     display: table;
-}
-
-menu ul
-{
-    position: absolute;
-    display:none;
-
-}
-
-.menu > li
-{
-    float:left;
-    width: 170px;
-
-
-}
-
-nav li li 
-{
-    width: 220px;
-    max-height: 0;
-    overflow: hidden;
     background: darkcyan;
-    
+    position: absolute;
+    width: 100%;
 }
 
-nav li:hover > ul > li
-{
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 0 3em;
+    color: white;}
+
+nav > ul > li {
+   float: left;
+   width: 320px;
+   line-height: 70px;
+
+}
+
+nav li {
+    position: relative;
+}
+
+nav li li {
+    max-height: 0;
+    transition: all 1s;
+}
+
+nav li:hover > ul > li {
+    visibility: visible;
+    max-height: 500%;
     overflow: visible;
-    max-height: 100%;
-
 }
 
-.menu > li > ul 
-{
-    top: 100%;
-    
+nav ul ul ul {
+    left: 100%;
+    top: 0;
 }
-
-
-
