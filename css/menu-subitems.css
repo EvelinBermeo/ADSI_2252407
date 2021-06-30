@@ -1,0 +1,84 @@
+
+
+h1
+{
+    text-align: center;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0;
+    
+}
+
+nav ul
+{
+    list-style: none;
+    
+}
+
+nav li
+{
+    line-height: 2.5em;
+    position: relative;
+        
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0 2em;
+    display: block;
+
+    
+
+
+}
+.menu 
+{
+    width: 100%;
+    background-color: darkcyan;
+    display: table;
+}
+
+menu ul
+{
+    position: absolute;
+    display:none;
+
+}
+
+.menu > li
+{
+    float:left;
+    width: 170px;
+
+
+}
+
+nav li li 
+{
+    width: 220px;
+    max-height: 0;
+    overflow: hidden;
+    background: darkcyan;
+    
+}
+
+nav li:hover > ul > li
+{
+    overflow: visible;
+    max-height: 100%;
+
+}
+
+.menu > li > ul 
+{
+    top: 100%;
+    
+}
+
+
+
