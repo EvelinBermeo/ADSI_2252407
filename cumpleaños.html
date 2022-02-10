@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/cumpleaños.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    var fechaMiCumpleaños = new Date("July 05, 2022");
+var fechaHoy = new Date();
+
+//Hallamos los milisegunos transcurridos hasta el día de hoy
+var msToday = Math.floor(fechaHoy.getTime());
+var msCumpleaños = Math.floor(fechaMiCumpleaños.getTime());
+var msFaltantes = Math.floor(msCumpleaños - msToday);
+var sgFaltantes = Math.floor(msFaltantes / 1000);
+var minFaltantes = Math.floor(sgFaltantes / 60);
+var hFaltantes = Math.floor(minFaltantes / 60);
+var DiaFaltantes = Math.floor(hFaltantes / 24);
+
+document.write("Evelin solo faltan: "+ DiaFaltantes+" Dias " + ", "+ "Para el 05/07/2022 para su proximo CUMPLEAÑOS!!"  );
+
+</script>

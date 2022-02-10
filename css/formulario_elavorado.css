@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(38, 74, 84);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    text-align: center;
+    font-style: 'italica';
+    font-size: 2.3em;
+    background: rgb(255, 255, 253);
+    padding-top: 15px;
+    font-family: 'Bellota';
+    background: none;
+    color: whitesmoke;
+}
+fieldset{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 43%;
+    display: block;
+    color: whitesmoke;   
+}
+.box-formulario{
+    width: 80%;
+    margin: 25px  auto;
+    display: block;  
+}
+.controls{
+    margin-bottom: 1.3em;
+    font-size: 1.2em;
+    color: whitesmoke;
+    height: 40px;
+    width: 350px;
+    border: none;
+    background-color:rgb(38, 74, 84);
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;   
+}
+.controls-t-area{
+    font-size: 1.2em;
+    margin-bottom: .7em;
+    background-color: rgb(38, 74, 84);
+    color: whitesmoke;
+}
+::placeholder{
+    color: rgba(255, 255, 255, .5);
+}
+
+.controls-button {
+    margin-bottom: 1.3em;
+    background-color: #1cb5e0;
+    width: 100%;
+    padding: 0.4em;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.controls-button:hover {
+    transform: translateY(-3px);
+    background-color: #1cb5f5;
+}
+@media only screen and (max-width:1060px) {
+    fieldset{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:620px) {
+    fieldset{
+        width: 90%;
+     }
+    }
+    @media only screen and (max-width:520px) {
+     fieldset{
+        width: 90%;
+        }
+    .controls{
+        width: 90px;
+    }
+    .controls-t-area{
+        width: 90px;
+    }
+    .box-formulario{
+        width: 96px;
+    }
+ }
+@media only screen and (max-width:320px) {
+    fieldset{
+        width: 90%;
+    }
+    .controls{
+        width: 90px;
+    }
+    .controls-t-area{
+        width: 200px;
+    }
+    .box-formulario{
+        width: 96px;
+    }
+}

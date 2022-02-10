@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-offline.css">
+
+</head>
+<body>
+    <div class="row">
+    <div class="col-2">
+        <nav>
+             <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="Registro-usuario"><a href="#">Registrar Usuario</a></li>
+                 <li class="Registro-usuario"><a href="bootstrap-offline-productos.html">Registrar Provedor</a></li>
+                 <li><a href="bootstrap-factura.html">Facturacion</a></li>
+
+             </ul>
+        </nav>
+    </div>
+    <div class="col-10">
+            <h1>Registrar</h1>
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-6">
+                        <select class="form-select form-select-lg size-reg-usuario" aria-label="form-select-md">
+                            <option selected>Seleccione un tipo de documento</option>
+                            <option value="1">Cédula de Ciudadanía</option>
+                            <option value="2">Cédula de Extranjería</option>
+                            <option value="3">Pasaporte</option>
+                            <option value="3"></option>
+                        </select>
+                    </div>
+                <div class="form-floating mb-3 col-6 ">
+                    <input  type="email" class="form-control" id="floatingInput"  placeholder="Ingrese su numero de documento">
+                    <label  for="floatingInput">Ingrese el numero de documento</label>
+                </div>
+                <div class="form-floating mb-3 col-6 ">
+                    <input  type="email" class="form-control" id="floatingInput"  placeholder="Ingrese el primer nombre">
+                    <label  for="floatingInput">Ingrese el primer nombre</label>
+                </div>
+                <div class="form-floating mb-3 col-6 ">
+                    <input  type="email" class="form-control" id="floatingInput"  placeholder="Ingrese el segundo nombre">
+                    <label  for="floatingInput">Ingrese el segundo nombre</label>
+                </div>
+                <div class="form-floating mb-3 col-6 ">
+                    <input  type="email" class="form-control" id="floatingInput"  placeholder="Ingrese el primer apellido">
+                    <label  for="floatingInput">Ingrese el primer apellido</label>
+                </div>
+                <div class="form-floating mb-3 col-6 ">
+                    <input  type="email" class="form-control" id="floatingInput"  placeholder="Ingrese el segundo apellido">
+                    <label  for="floatingInput">Ingrese el segundo apellido</label>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Intereses</h5>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Programacion" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Programacion
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Diseño" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Diseño Grafico
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="Videojuegos" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Desarrollo Videojuegos
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h5>Genero</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Masculino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Femenino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Binario
+                            </label> <br><br>
+                        </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-enviar col-2">Enviar</button>
+            </div>
+    </div>
+    </div>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+    </body>
+    </html>

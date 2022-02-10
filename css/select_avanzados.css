@@ -1,0 +1,34 @@
+.general-box {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+div {
+    float: left;
+}
+.box-main-1  div {
+    background-color: goldenrod;
+}
+.box-sub-padre {
+    margin-right: 310px;
+}
+.box-sub-hjo {
+    margin-left: 310px;
+    margin-top: -20px;
+}
+.box-main-3 >div {
+    background-color: darkcyan;
+}
+h2 {
+    clear: both;
+}
+.box-gen-1 + .box-gen-2 {
+    background: darkcyan;
+}
+.box-gen-1_h ~ .box-gen-2_h {
+    background: darkcyan;
+}
+.box-main-7 [class^="box-"] {
+    background: darkred;
+}

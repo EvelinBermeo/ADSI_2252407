@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+:root{
+    --primary: #e9b4e49f;
+    --secondary: #aecae69f;
+}
+.content-main {
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url('../img/fondo_gradient.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+::placeholder {
+    color: black;
+    font-size: 1.3em;
+}
+fieldset{ 
+    background: rgba(255, 255, 255, .4);  
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 35%;
+    display: block; 
+}
+.controls {
+    background: none;
+    border: none;
+    color: black;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+.box1 {
+    width: 80%;
+    margin: 25px auto;
+    display: block;
+    padding: 20px;
+}
+a {
+    color: rgb(32, 17, 126);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 6px;
+}
+.controls-button {
+    color:  whitesmoke;
+    background: black;
+    width: 65%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-left: 85px;
+}
+.icono {
+    color: black;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 4.5em;
+}
+.icono span {
+    background: rgba(255, 255, 255, .6);
+    padding: 30px;
+    border-radius: 120px;
+}
+.box-formulario{
+    width: 80%;
+    margin: 25px  auto;
+    display: block;  
+}
+.icon-user:before {
+    content: "\e971";
+  }
+  .controls-button {
+    color:  whitesmoke;
+    background: black;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+input[type="text"], input[type="password"] {
+    background-color: transparent;
+    border: none;
+    font-size: .8em;
+    width: 70%;
+    outline: none;
+    color: rgb(48, 48, 48);
+}
+@media only screen and (max-width:1060px) {
+    fieldset{
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width:620px) {
+    fieldset{
+        width: 90%;
+     }
+    }
+    @media only screen and (max-width:520px) {
+        fieldset{
+           width: 90%;
+           }
+       .controls{
+           width: 90px;
+       }}
+       @media only screen and (max-width:320px) {
+        fieldset{
+            width: 90%;
+        }
+        .controls{
+            width: 90px;
+        }}
+
+
+
+
+
+.item-flex {
+    width: 250px;
+    height: 200px;
+    background-color: rosybrown;
+    color: white;
+    font-size: 1.5em;
+}

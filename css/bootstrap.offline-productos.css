@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container-md {
+    margin-top: 50px;
+    border: 1px solid rgba(122, 72, 72, 0.4);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 4px;
+}
+nav {
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(1, 139, 211);
+    font-size: 1.4em;
+}
+ ul {
+    margin-top: 80px;
+    list-style: none;
+    /* margin-right: 30px; */
+}
+li {
+    position: relative;
+    left: -32px;
+    width: 300px;
+    display: block;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+a:hover {
+    color: white;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    background: rgb(1, 67, 94);
+}
+.size-reg-usuario {
+    font-size: 1.02em;
+
+}

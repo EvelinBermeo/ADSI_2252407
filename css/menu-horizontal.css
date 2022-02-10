@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar-horizontal
+{
+    
+    display: inline-block;
+    width: 100%;
+}
+
+.list-menu-horizontal
+{
+    margin: 15px;
+    margin-top: 40px; 
+    font-size: 1em;
+    text-align: center;
+   
+}
+
+
+
+.menu-horizontal
+{ 
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 3px;
+    background-color: #fff;
+    color: black;
+    border-right: 1px solid #ff6b00!important;
+    font-family: calibri, sans-serif;
+    font-size: 1.05em;
+    text-align: center;
+    
+    
+  
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+ 
+   
+}
+
+.menu-horizontal:hover
+{
+    background-color: white;
+  
+}
+
+
+
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+    <link rel="stylesheet" href="css/formulario_elavorado.css">
+</head>
+<body>
+    <h1>Citas Médicas</h1>
+    <form>
+        <fieldset>
+            <div class="box-formulario">
+            <br>
+            <input type="text" name="nombres" placeholder="Ingrese su(s) Nombres" class="controls"><br><br>
+           <input type="text" name="apellidos" placeholder="Ingrese sus(s) Apellidos" class="controls"><br><br>
+
+           <label >Observaciones</label>  <br>
+           <textarea class="controls-t-area" name="Observaciones" id="" cols="30" rows="5" maxlength="200" placeholder="Observaciones(Max. 200 carácteres) "></textarea> <br> <br>
+
+
+           <Label>Ver días disponibles</Label></Ver> <br>
+           <input class="controls-check" type="checkbox" name="Día-disponible" value="Lunes" >Lunes<br>
+           <input class="controls-check" type="checkbox" name="Día-disponible" value="Martes">Martes<br>
+           <input class="controls-check" type="checkbox" name="Día-disponible" value="Miercoles">Miercoles<br>
+           <input class="controls-check" type="checkbox" name="Día-disponible" value="Jueves">Jueves<br>
+           <input class="controls-check" type="checkbox" name="Día-disponible" value="Viernes">Viernes<br><br>
+
+           <Label> IPS de atención</Label> <br> 
+           <input class="controls-check" type="radio" name="IPS" value="IPS Centro">IPS Centro<br>
+           <input class="controls-check" type="radio" name="IPS" value="IPS Agua Blanca">IPS Agua Blanca<br>
+           <input class="controls-check" type="radio" name="IPS" value="IPS Cálamo">IPS Cálamo<br>
+           <input class="controls-check" type="radio" name="IPS" value="IPS Solarte">IPS Solarte<br> <br>
+
+           <label> Seleccionar un médico</label><br>
+           <select name="Médico" class="controls">
+           <option value="Liliana-Yisela-Gómez">Liliana Yisela Gómez</option> 
+           <option value="Jhon-alex-castanio">Jhon Alex Castanio</option> 
+           <option value="Kevin-Ijaji">Kevin Ijaji</option> </select>
+
+
+
+           <input type="controls-button" class="controls-button" type="submit" value="Enviar">
+
+</fieldset>
+
+    </form>
+           
+</div>
+</body>
+</html>

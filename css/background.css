@@ -1,0 +1,64 @@
+body
+{ 
+     background-image: url("../img/background2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover ;
+     color: black;
+    
+
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+img
+{
+    width: 100%;
+
+}
+
+#nav-bar
+{
+    text-align: right ;
+    position: absolute;
+ 
+
+}
+ul
+{
+    font-family: 'Bellota';
+    padding-left: 280px;
+    text-align: right;
+}
+li
+{
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 1em 1em;
+   
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* bellota-regular - latin */
+@font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 400;
+    
+    src: url('../fonts/bellota-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bellota-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bellota-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bellota-v2-latin-regular.svg#Bellota') format('svg'); /* Legacy iOS */
+  }

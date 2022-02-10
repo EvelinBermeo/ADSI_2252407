@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+Header, Nav, .sidebar,Article,Footer {
+    padding: 20px;
+    font-size: 1.6em;
+    border: 3px solid whitesmoke;
+    line-height: 10vh;
+    text-align: center;
+    color: white;
+}
+.page_content{
+    display: grid;
+    grid-template: "header header" 150px
+                   "navbar   navbar" 100px
+                   "sidebar main" 
+                   "footer footer" 150px / 
+                   200px      auto;
+}
+.header{
+    background: darkcyan;
+    grid-area: header;
+}
+.navbar{
+    background: goldenrod;
+    grid-area: navbar;
+}
+.sidebar{
+    background: palevioletred;
+    grid-area: sidebar;
+}
+.main{
+    background: slateblue;
+    grid-area: main;
+}
+.footer{
+    background: rosybrown;
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 600px){
+    .page_content{
+        grid-template: "header" 100px
+                        "navbar" 100px
+                        "main" 500px
+                        "sidebar" 300px
+                        "footer" 150px;
+    }
+}

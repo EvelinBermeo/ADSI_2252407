@@ -1,0 +1,35 @@
+
+.list-menu
+{   font-family: 'Bellota';
+    font-size: 0.5em;
+    text-align: right;
+    background: white;
+    padding:15px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.items-menu
+{
+    display: inline-block;
+    font-weight:0.8em ;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}  
+aside, section, div{
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sidebar{
+    grid-area: sidebar;
+}

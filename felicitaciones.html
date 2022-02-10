@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/felicitaciones.js"></script>
+   
+</head>
+<body>
+    <form >
+        <input type="text" placeholder="nombre"><br><br>
+        <input type="date"  placeholder="fecha"><br><br>
+        <button onclick="calcular();">Registrar</button>
+        </form> <br>
+
+</body>
+</html>
+<script>
+function calcular();
+var fechaFelicitaciones = new Date("July 05, 2022");
+var fechaHoy = new Date();
+
+//Hallamos los milisegunos transcurridos hasta el día de hoy
+var msToday = Math.floor(fechaHoy.getTime());
+var msCumpleaños = Math.floor(fechaFelicitaciones.getTime());
+var msFaltantes = Math.floor(msCumpleaños - msToday);
+var sgFaltantes = Math.floor(msFaltantes / 1000);
+var minFaltantes = Math.floor(sgFaltantes / 60);
+var hFaltantes = Math.floor(minFaltantes / 60);
+var DiaFaltantes = Math.floor(hFaltantes / 24);
+var fechafelicitar =  DiaFaltantes;
+if(fechaFelicitaciones == DiaFaltantes){
+   document.write("Feliz cumpleaños!!!")}
+else{
+    alert("Bienvenido")
+
+}
+   
+</script>
+
+

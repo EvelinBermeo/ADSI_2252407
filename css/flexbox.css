@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-flex-1 {
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+}
+.container-flex-2 {
+    display: flex;
+    background-color: wheat;
+    flex-direction: column;
+}
+.container-flex-3 {
+    display: flex;
+    background-color: wheat;
+    flex-wrap: wrap;
+}
+.container-flex-4 {
+    display: flex;
+    background-color: wheat;
+    flex-wrap: nowrap;
+}
+.container-flex-5 {
+    display: flex;
+    background-color: wheat;
+    flex-flow: row wrap;
+}
+.container-flex-6 {
+    display: flex;
+    background-color: wheat;
+    flex-flow: row nowrap;
+}
+.container-flex-7 {
+    display: flex;
+    background-color: wheat;
+    flex-flow: column wrap;
+    height: 400px;
+}
+.container-flex-8 {
+    display: flex;
+    background-color: wheat;
+    flex-flow: column nowrap;
+    height: 400px;
+}
+.container-flex-9 {
+    display: flex;
+    background-color: wheat;
+    justify-content: space-between;
+  
+}
+.container-flex-10 {
+    display: flex;
+    background-color: wheat;
+    justify-content: flex-start;
+    
+}
+.container-flex-11 {
+    display: flex;
+    background-color: wheat;
+  justify-content: flex-end;
+  
+}
+.container-flex-12 {
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+ 
+}
+.container-flex-13 {
+    display: flex;
+    background-color: wheat;
+ justify-content: space-around;
+   
+}
+.container-flex-14 {
+    display: flex;
+    background-color: wheat;
+    justify-content: stretch;
+    
+}
+.container-flex-15 {
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.item-flex {
+    width: 250px;
+    height: 250px;
+    background-color: rosybrown;
+    color: white;
+    font-size: 1.5em;
+}

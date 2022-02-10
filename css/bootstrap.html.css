@@ -1,0 +1,30 @@
+
+div {
+    border: 1px solid rgb(0, 0, 0, .2);
+}
+.row [class^="col-"] {
+    background-color: goldenrod;
+    color: white;
+}
+.contenedores > [class^=].contenedor {
+    background: gray;
+    height: 50px;
+    color: white;
+}
+.formularios {
+    margin: 30px auto;
+    padding: 15px;
+}
+.formularios input[type="text"] {
+    margin: 15px;
+    width: 85%;
+}
+form select {
+    margin: 5px 15px 15px 15px ;
+    width: 85%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.form-check-input {
+    margin-left: 10px;
+}

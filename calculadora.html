@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <script src="js/calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <center>
+        <form>
+            <table>
+                <tr><td colspan="4"><input type="text" id="pantalla" placeholder="0"></td></tr>
+                <tr><td><button type="button" class="boton1" onclick="asignar_uno()">1</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_dos()">2</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_tres()">3</button></td>
+                    <td> <button type="button" class="boton" onclick="asignar_suma()">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="boton1" onclick="asignar_cuatro()">4</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_cinco()">5</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_seis()">6</button></td>
+                    <td> <button type="button" class="boton" onclick="asignar_resta()">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="boton1" onclick="asignar_siete()">7</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_ocho()">8</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_nueve()">9</button></td>
+                    <td> <button type="button" class="boton" onclick="asignar_multi()">*</button></td>
+                <tr>  
+                    <td> <button type="button" class="boton" onclick="asignar_igual()">=</button></td>
+                    <td> <button type="button" class="boton1" onclick="asignar_cero()">0</button></td>
+                    <td> <button type="button" class="boton" onclick="asignar_reset()">C</button></td>
+                    <td> <button type="button" class="boton" onclick="asignar_division()">/</button></td>
+                </tr>  
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/facturacion.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-menu.css">
+    <link rel="stylesheet" href="css/facturacion.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    
+    <link rel="stylesheet" href="bootstrap-offline.html"> -->
+
+    <title>Facturacion</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-2">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="Registro-usuario"><a href="bootstrap-offline.html">Registrar usuario</a></li>
+                    <li class="Registro-usuario"><a href="bootstrap-offline-productos.html">Registrar Provedor</a></li>
+                    <li><a href="#">Facturacion</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-10">
+            <div class="container-md">
+            <h1>Facturacion</h1>
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-3">
+                        <label for="validationCustom01" class="form-label">Codigo</label>
+                        <input type="number" class="form-control" id="validationCustom01" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom01" class="form-label">Cantidad</label>
+                        <input type="number" class="form-control" id="validationCustom01" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom03" class="form-label">Stock</label>
+                        <input type="number" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                          Por favor ingrese la cantidad que desea.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom01" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="validationCustom01" value="00/00/0000" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text Descrip">Descripción</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Precio por Unidad</label>
+                        <div class="input-group has-validation">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Precio de Unidad con IVA</label>
+                        <div class="input-group has-validation">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" value="0" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Total</label>
+                        <div class="input-group has-validation">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="condiciones col-12">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Acepto Terminos y Condiciones. 
+                            </label>
+                            <div class="invalid-feedback">
+                                Debes Aceptar Terminos y Condiciones.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn-confirmar" type="submit"><span class="icon-shopping-cart"></span><br>Agregar</button>
+                        </div>
+                       
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

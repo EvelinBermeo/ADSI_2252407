@@ -1,0 +1,80 @@
+
+h1 {
+    text-align: center;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 7px;
+    width: 90%;
+    max-width: 1077px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'oswald';
+    background-color: rgb(252, 251, 255);
+}
+.contenedor > div {
+    display: block;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(96, 53, 18);
+}
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    background: black;
+    font-size: 3em;
+    box-shadow: none;
+    color: white;
+    font-family: 'Bellota';
+    border-bottom: 1px solid black;
+}
+.dias{
+    background-color: rgba(200, 150, 41);
+    font-weight: bold;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div9 {
+    grid-column-start: 3;
+}
+.festivos {
+    color: rgba(200, 150, 41);
+}
+
+@media only screen and (max-width: 940px) {
+    .dia , .div9 {
+        font-size: .6em;
+    }
+    .div1 {
+        font-size: 2em;
+
+    }
+    .festivos {
+        height: 40px;
+    }
+    .contenedor > div {
+        display: block;
+        padding: 7px;
+        text-align: center;
+    }
+}
+
+/* bellota-regular - latin */
+@font-face {
+    font-family: 'Bellota';
+    font-style: normal;
+    font-weight: 400;
+    
+    src: url('../fonts/bellota-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bellota-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bellota-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bellota-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bellota-v2-latin-regular.svg#Bellota') format('svg'); /* Legacy iOS */
+  }

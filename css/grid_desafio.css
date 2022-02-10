@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,aside, section, div{
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.header{
+    background-color: rgb(214, 104, 79);
+    grid-area: header;
+    padding: 40px;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    width: 99%;
+    font-size: 20px;
+    text-align: justify;
+    padding:2px;
+    border: none;
+    grid-area: contenedor;
+}
+
+.box1, .box2, .box3 {
+    display: block;
+    color: white;
+    background-color: rgb(179, 155, 179);
+}
+.section{
+    background-color: rgb(112, 216, 152);
+    grid-area: section;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+p {
+    color: black;
+}
+.page-content{
+    display: grid;
+    padding: 10px 100px 10px 100px;
+    border: 3px solid white;
+    justify-content: stretch;
+    grid-template: "header sidebar sidebar"
+                   "section section section" 300px
+                   "contenedor contenedor contenedor";
+                }
+@media only screen and (max-width: 800px){
+
+.page-content{
+    display: grid;
+    justify-content: center;
+    grid-template: "header sidebar"
+                   "section section" 
+                   "contenedor contenedor";
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box3{
+    visibility: none;
+    display: none;
+}
+.texto{
+    visibility: hidden;
+}
+}
+@media only screen and (max-width: 600px){
+    .page-content{
+        display: grid;
+        justify-content: center;
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box2{
+        visibility: none;
+        display: none;
+    }
+    .texto2{
+        visibility: hidden;
+    }
+}
