@@ -1,0 +1,17 @@
+label {
+    font-size: 1.4em;
+}
+table {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+td {
+    width: 150px;
+    height: 60px;
+}
+.dispo {
+    color: rgb(53,158,53);
+    font-weight: bold;
+}
