@@ -1,0 +1,55 @@
+.container {
+  width: 20%;
+  margin: 80px;
+  padding: 40px;
+  border: solid 1px black;
+}
+.boton {
+  margin-top: 10px;
+}
+#aumentar, #disminuir{
+  content: "\002B";
+  font-size: 30px; 
+  border: none;
+}
+span {
+  font-size: 20px; 
+}
+input {
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: none;
+}
+.box1 {
+  background-color: yellow;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 6px;
+  width: 90%;
+  height: 30px;
+  padding: 10 auto;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.imagen {
+  padding-top: 10px;
+  display: inline-block;
+}
+.texto {
+  float: right;
+  width: 200px;
+  height: 40px;
+
+}
+/*
+input {
+  border-radius: 10px;
+  width: 40px;
+}
+
+button {
+  padding: 15px;
+} */
