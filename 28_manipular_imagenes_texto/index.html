@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="js/script.js"></script>
+     <script src="js/script.js"></script> 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,11 +17,12 @@
     <!-- 2. cargar una segunda imagen y que al pasar el mouse por encima de la imagen, esta desaparezca -->
      <!-- <img id="imagen2"src="img/avatar.jfif"  onmouseover="volverInvisible();" alt=""> -->
     <div class="img_principal">
-        <img id="second-movie" src="img/misterioAncho.jfif" alt="">
+        <img id="movie" src="img/misterioAncho.jfif" alt="">
     </div>
-        <img id="movie2" src="img/violet&finch.jfif" onmouseover="cambiarImagen('#second-movie', 'img/violetAncho.jfif');" alt="">
-        <img id="movie3" src="img/pelicula2.jfif" onmouseover="cambiarImagen('#movie3', 'img/misterioAncho.jfif');" alt="">
-        <img id="movie4" src="img/pelicula3.jfif" onmouseover="cambiarImagen(id, 'img/lionert.jfif');"  alt="">
-
+    <div class="img_segundaria">
+        <img id="movie2" src="img/violet&finch.jfif" onmouseover="cambiarImagen('img/violetAncho.jfif');" onmouseleave="retornoImagen();" alt="">
+        <img id="movie3" src="img/pelicula2.jfif" onmouseover="cambiarImagen( 'img/misterioAncho.jfif');" onmouseleave="retornoImagen();" alt="">
+        <img id="movie4" src="img/pelicula3.jfif" onmouseover="cambiarImagen('img/lionertAncho.jfif');"  onmouseleave="retornoImagen();" alt="">
+    </div>
 </body>
 </html>

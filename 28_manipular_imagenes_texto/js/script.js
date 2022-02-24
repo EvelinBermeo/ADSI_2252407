@@ -7,8 +7,12 @@ function volverInvisible(){
 //function retornarImagen() {
 //   document.getElementById("second-movie").src = "img/misterioAncho.jfif"
 //}
-function cambiarImagen() {
-   let nueva = document.getElementById("second-movie").src = "img/violetAncho.jfif";
-    nueva.src = "img/misterioAncho";
-    
-}
+
+function cambiarImagen(img) {
+   let nueva = document.getElementById("movie");
+   nueva.src = img; 
+    }
+function retornoImagen() {
+    document.getElementById("movie"),src = "img/misterioAncho.jfif";
+    }              
+
