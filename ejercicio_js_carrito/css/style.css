@@ -1,11 +1,22 @@
 .container {
-  width: 20%;
-  margin: 80px;
-  padding: 40px;
+  width: 450px;
+  height: 390px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
   border: solid 1px black;
 }
 .boton {
   margin-top: 10px;
+}
+.boton1{
+  width: 100px;
+  border-radius: 8px;
+  float: right;
+  margin-left: 20px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
 }
 #aumentar, #disminuir{
   content: "\002B";
@@ -35,15 +46,27 @@ input {
   font-size: 1.2em;
 }
 .imagen {
-  padding-top: 10px;
+  padding: 9px;
   display: inline-block;
 }
 .texto {
+  font-weight: bold;
+  font-size: .9em;
+  float: right;
+  width: 240px;
+  height: 40px;
+  padding: 10px;
+  text-align: justify;
+}
+#valorUnitario {
+  font-size: 1.7em;
   float: right;
   width: 200px;
   height: 40px;
-
+  padding: 9px;
+  text-align: justify;
 }
+
 /*
 input {
   border-radius: 10px;

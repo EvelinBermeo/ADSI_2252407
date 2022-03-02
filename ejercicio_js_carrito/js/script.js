@@ -15,6 +15,9 @@
 // }
 let inicio = 0;
 let cantidad = "";
+let valorTotal  = 85000;
+
+let formatear = new Intl.NumberFormat('es-Es');
 
 function aumentar(){
     if( inicio <= 9) {
@@ -27,6 +30,8 @@ function aumentar(){
 function disminuir() {
     if(inicio >= 1) {
         cantidad = document.getElementById('cantidad').value = --inicio;
+        document.getElementById("total").innerHTML = cantidad;
+        document.getElementById("multiplicar").innerHTML = formatear.format(parseInt(cantidad * valorTotal));
     }
 }
 function calcularTotal() {
