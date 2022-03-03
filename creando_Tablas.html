@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Tablas</title>
+    <link rel="stylesheet" href="css/nodo_Tabla.css">
+
+</head>
+<body>
+    <div>
+         <form id="codigo" action="">
+            <h2>Registro de Productos</h2>
+            Codigo del Producto <input id="codigo" type="number"> <br><br>
+            Descripción <input id="descripcion" type="text"> <br><br>
+            Valor Unitario <input id="valorUnitario" type="number"> 
+            Unidades en Stock <input id="UnidadesStock" type="number">
+            <button onclick="crearTabla();">Cargar Producto</button>
+        </form>
+    </div>  
+    <div id="table_js">
+    </div>
+</body>
+    <script src="js/nodo_Tabla.js"></script>
+</html>
