@@ -30,12 +30,11 @@ function crearTabla() {
     nodeAddTable.setAttribute("class", "table-style");
 };
 }
-
 function validarFormulario() {
-    let codigo = document.getElementById("codigo").value;
-    let descripcion = document.getElementById("descripcion").value;
-    let Valor = document.getElementById("valorUnitario").value;
-    let Stock = document.getElementById("UnidadesStock").value;
+    let codigo = document.getElementById("codigo");
+    let descripcion = document.getElementById("descripcion");
+    let Valor = document.getElementById("valorUnitario");
+    let Stock = document.getElementById("UnidadesStock");
 
     if(codigo == "") {
         alert("Por favor, ingrese el código");
@@ -58,6 +57,6 @@ function validarFormulario() {
         return false;
     }
     return  true;
-}
+};
 
 
