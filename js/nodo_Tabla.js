@@ -1,6 +1,6 @@
 function mostrarTabla(){
     if(validarFormulario() == false) 
-    return alert("Completa todas las celdas");
+    return alert("Completar todas las celdas");
 
         if(!document.getElementById("body")) crearTabla(); 
         crearCeldas(validarFormulario());
@@ -12,11 +12,11 @@ let tabla = document.getElementById('table_js');
 function crearTabla(){
     tabla.appendChild(nodeAddTable);
 
-    let theAd = document.createElement("thead");
-    nodeAddTable.appendChild(theAd);
+    let ToAddTheAd = document.createElement("thead");
+    nodeAddTable.appendChild(ToAddTheAd);
     
     let toaddtr = document.createElement("tr");
-    theAd.appendChild(toaddtr);
+    ToAddTheAd.appendChild(toaddtr);
 
     let toAddTh = document.createElement("th");
     let nodeAddTexto = document.createTextNode("Codigo");
@@ -103,68 +103,3 @@ function Limpiar(){
     var valorunitario = document.getElementById("valorUnitario").value ="";
     var Stock = document.getElementById("UnidadesStock").value ="";
 }
-
-
-// function crearTabla() {
-//     if(validarFormulario == true) {
-
-//     let contenedor = document.getElementById("table_js");
-//     let nodeAddTable = document.createElement("table");
-//     contenedor.appendChild(nodeAddTable);
-    
-//     let nodeAddTr = document.createElement("tr");
-//     nodeAddTable.appendChild(nodeAddTr);
-
-//     let nodeAddTh = document.createElement("th");
-//     let nodeAddTexto = document.createTextNode("Código");
-//     nodeAddTr.appendChild(nodeAddTh);
-
-//      let nodeAddTh2 = document.createElement("th");
-//      let nodeAddTexto2 = document.createTextNode("Descripción");
-//      nodeAddTh.appendChild(nodeAddTexto);
-//      nodeAddTr.appendChild(nodeAddTh2);
-//      nodeAddTh2.appendChild(nodeAddTexto2);
-
-//      let nodeAddTh3 = document.createElement("th");
-//      let nodeAddTexto3 = document.createTextNode("Valor Unitario");
-//      nodeAddTr.appendChild(nodeAddTh3);
-//      nodeAddTh3.appendChild(nodeAddTexto3);
-
-//      let nodeAddTh4 = document.createElement("th");
-//      let nodeAddTexto4 = document.createTextNode("Unidades en Stock");
-//      nodeAddTr.appendChild(nodeAddTh4);
-//      nodeAddTh4.appendChild(nodeAddTexto4);
- 
-//     nodeAddTable.setAttribute("class", "table-style");
-// };
-// }
-// function validarFormulario() {
-//     let codigo = document.getElementById("codigo");
-//     let descripcion = document.getElementById("descripcion");
-//     let Valor = document.getElementById("valorUnitario");
-//     let Stock = document.getElementById("UnidadesStock");
-
-//     if(codigo == "") {
-//         alert("Por favor, ingrese el código");
-//         document.getElementById("codigo").focus();
-//         return false;
-//     }
-//     if(descripcion == "") {
-//         alert("Por favor, ingrese el código");
-//         document.getElementById("descripcion").focus();
-//         return false;
-//     }
-//     if(Valor == "") {
-//         alert("Por favor, ingrese el código");
-//         document.getElementById("valorUnitario").focus();
-//         return false;
-//     }
-//     if(Stock == "") {
-//         alert("Por favor, ingrese el código");
-//         document.getElementById("UnidadesStock").focus();
-//         return false;
-//     }
-//     return  true;
-// };
-
-
