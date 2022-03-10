@@ -44,12 +44,12 @@ input {
 #body td{
     border:  1px solid black;
     font-size: 1em;
-    text-align: center;
+    
 }
 tr, td, th {
     border-bottom: 1px solid black;
     padding: 5px;
-    text-align: justify;    
+    text-align: left;   
 }
 th {
     border:  1px solid black;
