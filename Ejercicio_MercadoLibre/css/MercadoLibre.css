@@ -1,0 +1,33 @@
+
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ .barraNavegacion {
+    padding: 15px;
+    background-color: rgba(238, 219, 44);
+}
+.hamburger {
+    margin-left: calc(2%);
+    font-weight: bolder;
+    font-size: 1.5em;
+    float: left;
+}
+.cart-line {
+    padding-right: calc(5%);
+    font-weight: bolder;
+    font-size: 1.5em; 
+    float: right; 
+}
+input[type=text]{
+    margin: 4px ;
+    margin-left: calc(5%);
+    width: 65%;
+    padding: 8px 6px 8px 35px;
+    /* position: relative; */
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
