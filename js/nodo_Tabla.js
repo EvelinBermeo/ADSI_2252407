@@ -1,11 +1,13 @@
 function mostrarTabla(){
-    if(validarFormulario() == false) return alert("Completa todas las celdas");
+    if(validarFormulario() == false) 
+    return alert("Completa todas las celdas");
+
         if(!document.getElementById("body")) crearTabla(); 
         crearCeldas(validarFormulario());
 }
 
-var nodeAddTable = document.createElement("table");
-var tabla = document.getElementById('table_js');
+let nodeAddTable = document.createElement("table");
+let tabla = document.getElementById('table_js');
 
 function crearTabla(){
     tabla.appendChild(nodeAddTable);
@@ -17,24 +19,24 @@ function crearTabla(){
     theAd.appendChild(toaddtr);
 
     let toAddTh = document.createElement("th");
-    let contenidotext1 = document.createTextNode("Codigo");
+    let nodeAddTexto = document.createTextNode("Codigo");
     toaddtr.appendChild(toAddTh);
-    toAddTh.appendChild(contenidotext1);
+    toAddTh.appendChild(nodeAddTexto);
 
     let toAddTh2 = document.createElement("th");
-    let contenidotext2 = document.createTextNode("Descripcion");
+    let nodeAddTexto2 = document.createTextNode("Descripcion");
     toaddtr.appendChild(toAddTh2);
-    toAddTh2.appendChild(contenidotext2);
+    toAddTh2.appendChild(nodeAddTexto2);
 
     let toAddTh3 = document.createElement("th");
-    let contenidotext3 = document.createTextNode("Valor Unitario");
+    let nodeAddTexto3 = document.createTextNode("Valor Unitario");
     toaddtr.appendChild(toAddTh3);
-    toAddTh3.appendChild(contenidotext3);
+    toAddTh3.appendChild(nodeAddTexto3);
     
     let toAddTh4 = document.createElement("th");
-    let contenidotext4 = document.createTextNode("Stock Disponible");
+    let nodeAddTexto4 = document.createTextNode("Stock Disponible");
     toaddtr.appendChild(toAddTh4);
-    toAddTh4.appendChild(contenidotext4);
+    toAddTh4.appendChild(nodeAddTexto4);
 
     toaddtr.setAttribute("class","nombre_encabezado");
     nodeAddTable.setAttribute("class", "table-style");
