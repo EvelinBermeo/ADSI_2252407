@@ -1,28 +1,19 @@
-form {
-    width: 600px;
-    height: 210px;
-    margin: 0 auto;
-    padding: 10px 25px;
-    border-radius: 8px;
-    border: solid 1px ;
-  }
-h2 {
-    text-align: center;
-}
-input {
-    padding: 2px;
-}
-button {
-  width: 98%;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  color: white;
-  margin: 10px;
-  padding: 4px;
-  background: rgb(0, 153, 255);
-}
 
+
+.contenedor{
+    border: 1px solid black;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+    padding: 15px;
+    grid-template:  " titulo titulo titulo titulo" 60px
+                    "codigo barracodigo empty empty " 60px
+                    "descripcion barradescripcion barradescripcion barradescripcion" 60px
+                    "unidad barraunidad Stock barrastock" 60px
+                    "boton  boton        boton boton " 50px/
+                       1fr  2fr          1fr   2fr ;
+}
 .table-style {
     width: 1000px;
     margin-top: 50px;

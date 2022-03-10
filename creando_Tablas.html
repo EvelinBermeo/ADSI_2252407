@@ -9,17 +9,22 @@
 
 </head>
 <body>
-    <div>
-         <form id="codigo" action="">
-            <h2>Registro de Productos</h2>
-            Codigo del Producto <input id="codigo" type="number"> <br><br>
-            Descripción <input id="descripcion" type="text"> <br><br>
-            Valor Unitario <input id="valorUnitario" type="number"> 
-            Unidades en Stock <input id="UnidadesStock" type="number">
-            <button onclick="crearTabla();">Cargar Producto</button>
+    <div class="contenedor">
+   
+            <h1>Registrar Productos</h1>
+            <label>Código del Producto</label>
+            <input id="codigo" type="number">
+            <label>Descripción</label>
+            <input id="descripcion" type="text">
+            <label>Valor Unitario</label>
+            <input id="valorUnitario" type="number">
+            <label>Stock Disponible</label>
+            <input id="UnidadesStock" type="number">
+            <input type="button" id="boton" onclick="mostrarTabla();" value="Cargar Producto">
         </form>
-    </div>  
+    </div>
     <div id="table_js">
+
     </div>
 </body>
     <script src="js/nodo_Tabla.js"></script>
