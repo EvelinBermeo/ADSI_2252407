@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.style-content2 {
+    font-family:sans-serif;
+    display: grid;
+    padding: 20px;
+    box-sizing:border-box;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.2); 
+    grid-template: "titulo titulo titulo" 30px
+                   "salida duracion llegada" 50px
+                   /
+                   6fr      8fr     4fr ;
+                  
+    }
+
+ .style-titulo {
+    width: 150px;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: sans-serif;
+    background-color: darkcyan;
+    font-size: .9em;
+    font-weight: 300;
+    grid-area: titulo;
+    color: white;
+}
+.style-salida {
+    display: block;
+    margin-left: 17px;
+    grid-area: salida;
+    font-size: 1em;
+    color: rgb(27, 0, 136);
+    font-weight: bolder;
+}
+.style-duracion {
+    display: block;
+    width: 50px;
+    grid-area: duracion;
+    font-size: .7em;
+    color: rgb(92, 92, 92);
+    font-weight: bolder;
+}
+.style-llegada {
+    display: block;
+    margin-right: 17px;
+    grid-area: llegada;
+    font-size: 1em;
+    color: rgb(27, 0, 136);
+    font-weight: bolder;
+}
