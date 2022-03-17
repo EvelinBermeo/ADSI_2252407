@@ -46,4 +46,51 @@ input[type="text"] {
     font-weight: 700;
     color: rgb(48,48,48,.8);
 }
+.style-contentImg {
+    font-family: lato, sans-serif;
+    display: grid;
+    padding: 20px;
+    box-sizing:border-box;
+    border-bottom: 1px solid rgb(48,48,48,.2); 
+    grid-template: "img-car modelo" 25px 
+                   "img-car precio" 25px 
+                   "img-car kilometros" 25px
+                   "img-car empty" auto /
+                     6fr       8fr;
+}
+
+.img-style {
+    /* padding: 20px;
+    box-sizing:border-box; */
+    width: 100%;
+    grid-area: img-car;
+}
+.style-precio {
+    font-family: lato, sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    /* display: block; */
+    grid-area: precio;
+    margin-left: 17px;
+    color: rgba(24,24,24,.9);
+}
+.style-anyo {
+    font-size: 1em;
+    margin-left: 17px;
+    display: block;
+}
+.style-modelo {
+    display: block;
+    margin-left: 17px;
+    grid-area: modelo;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.style-kilometraje {
+    padding-top: 10px;
+    grid-area: kilometros;
+    margin-left: 17px;
+    font-size: 0.9em;
+    font-family:sans-serif;
+}
 
