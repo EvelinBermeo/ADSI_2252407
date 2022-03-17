@@ -4,30 +4,46 @@
      margin: 0;
  }
  .barraNavegacion {
-    padding: 15px;
-    background-color: rgba(238, 219, 44);
+    display: grid;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,219,21);
+    font-family: sans-serif;
+    grid-template: "icono-hamburger busqueda icono-carrito" / 
+                    1fr 7fr 1fr;
 }
-.hamburger {
-    margin-left: calc(2%);
-    font-weight: bolder;
+.icono-hamburger {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 15px;
     font-size: 1.5em;
-    float: left;
+    font-weight: 900;
+    grid-area: icono-hamburger;
 }
-.cart-line {
-    padding-right: calc(5%);
-    font-weight: bolder;
-    font-size: 1.5em; 
-    float: right; 
+.icono-carrito {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 15px;
+    text-align: right;
+    
+    grid-area: icono-carrito;
+    cursor: pointer;
 }
-input[type=text]{
-    margin: 4px ;
-    margin-left: calc(5%);
-    width: 65%;
-    padding: 8px 6px 8px 35px;
-    /* position: relative; */
-    border: none;
-    border-radius: 5px;
+input[type="text"] {
+    width: 93%;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto 0 auto;
+    grid-area: busqueda;
+    border: 0;
     outline: none;
-    box-sizing: border-box;
+    padding-left: 20px;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    color: rgb(48,48,48,.8);
 }
 
