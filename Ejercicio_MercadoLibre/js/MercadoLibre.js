@@ -14,7 +14,7 @@ let auto1 = new Automovil("Toyota",   "4Runner",     2018, "img/Toyota4runner.jp
 let auto2 = new Automovil("Toyota",   "Land Cruiser",2008, "img/ToyotaPrado.jpg",   118000000 , 176000, "Bogotá");
 let auto3 = new Automovil("Toyota",   "Prado 3.0 Tx",2011, "img/LandCruiser.jpg",   133000000 , 104000, "Cali");
 let auto4 = new Automovil("Chevrolet",  "Spark",2017, "img/chevrolet.jpg",   34500000 , 65, "Cali");
-
+let auto5 = new Automovil("Chevrolet",  "Spark",2017, "img/chevrolet.jpg",   34500000 , 65, "Cali");
 
 
 function mostrarAuto(auto) {
@@ -68,6 +68,7 @@ window.addEventListener("keydown", function(event) {
         }
         else if (busqueda == "Chevrolet") {
             mostrarAuto(auto4);
+            mostrarAuto(auto5);
         }
         else {
         this.alert("No se han encontrado coincidencias.");

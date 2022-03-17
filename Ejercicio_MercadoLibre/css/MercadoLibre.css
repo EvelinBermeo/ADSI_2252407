@@ -52,7 +52,7 @@ input[type="text"] {
     padding: 20px;
     box-sizing:border-box;
     border-bottom: 1px solid rgba(100, 100, 100, 0.2); 
-    grid-template: "img modelo" 25px 
+    grid-template: "img modelo " 60px 
                    "img precio" 25px 
                    "img kilometros" 25px
                    "img empty" auto /
@@ -72,6 +72,11 @@ input[type="text"] {
     color: rgba(24,24,24,.9);
 }
 .style-anyo {
+    font-size: 1.2em;
+    margin-left: 17px;
+    display: block;
+}
+.style-ciudad {
     font-size: 1.2em;
     margin-left: 17px;
     display: block;
