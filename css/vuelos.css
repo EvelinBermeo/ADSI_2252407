@@ -2,18 +2,86 @@
     padding: 0;
     margin: 0;
 }
-.style-content2 {
-    font-family:sans-serif;
+.encabezado {
+    text-align: center;
     display: grid;
-    padding: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(42, 0, 136);
+    grid-template: "iconoLatam  LaOfertas LaVijes laAyuda btn icono-barra" / 
+                      1fr 2fr 2fr 2fr 1fr 1fr;
+  }
+  .imagen{
+      padding-top: 10px;
+      padding-left: 10px;
+  }
+  .icono-barra {
+    margin:15px 15px 0 0;
+    font-size: 2em;
+    font-weight: bold;
+    grid-area: icono-barra;
+    cursor: pointer;
+   color: white;
+  }
+  .style-contenido{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    margin: 20px;
+    border-radius: 10px;
     box-sizing:border-box;
-    border-bottom: 1px solid rgba(100, 100, 100, 0.2); 
-    grid-template: "titulo titulo titulo" 30px
-                   "salida duracion llegada" 50px
-                   /
-                   6fr      8fr     4fr ;
-                  
-    }
+    border: 1px solid rgba(100, 100, 100); 
+    grid-template: "titulo titulo titulo" 30px 
+                   "label1 txt label2" 32px
+                   "cuidadSal dur destino" 32px
+                   "lineaDiv lineaDiv lineaDiv" 
+                   "infoValor infoValor infoValor" 15px
+                   "info info valor" auto/
+                     6fr       8fr 1fr;
+}
+.infoValor{
+    grid-area: infoValor;
+    color: green;
+    text-align: right;
+    font-size: 10px;
+    margin-right: 20px;
+  }
+  .info{
+  grid-area: info;
+  color: rgb(42, 0, 136);
+  font-weight: bold;
+  
+  }
+  .valor{
+    margin-right: 20px;
+    grid-area: valor;
+  }
+  .valor, .info{
+    margin-bottom: 15px;
+  }
+  .lineaDiv{
+    grid-area: lineaDiv;
+    margin: 10px;
+  }
+  .ciudadSal{
+    color: rgb(118, 114, 114);
+    width: 100%;
+    font-size: .8em;
+    grid-area: cuidadSal;
+  }
+  .ciudadSal, .horaSal,.info{
+    margin-left: 20px;
+  }
+  .horaSal, .txtduracion,.horaLleg{
+    padding-top: 10px;
+  }
+  .txtduracion{
+    width: 100%;
+    grid-area: txt;
+  }
+  .dur{
+    width: 100%;
+    grid-area: duracion;
+  }
 
  .style-titulo {
     width: 150px;
@@ -29,27 +97,22 @@
     grid-area: titulo;
     color: white;
 }
-.style-salida {
-    display: block;
-    margin-left: 17px;
-    grid-area: salida;
-    font-size: 1em;
-    color: rgb(27, 0, 136);
-    font-weight: bolder;
-}
-.style-duracion {
-    display: block;
-    width: 50px;
-    grid-area: duracion;
-    font-size: .7em;
-    color: rgb(92, 92, 92);
-    font-weight: bolder;
-}
-.style-llegada {
-    display: block;
-    margin-right: 17px;
-    grid-area: llegada;
-    font-size: 1em;
-    color: rgb(27, 0, 136);
-    font-weight: bolder;
-}
+
+.horaSal {
+    font-size: 1.3em;
+    color: rgb(42, 0, 136);
+    width: 100%;
+    grid-area: label1;
+  }
+  .horaLleg {
+    font-size: 1.3em;
+    color: rgb(42, 0, 136);
+    width: 100%;
+    margin-right: 20px;
+    grid-area: label2;
+  }
+  .destino{
+    color: rgb(118, 114, 114);
+    width: 100%;
+    grid-area: destino;
+  }
