@@ -1,0 +1,39 @@
+.main-content {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    display: grid;
+    background-color: rgb(228, 224, 224);
+    grid-template: "iconoInicio imagen busqueda busqueda  lupa" / 
+                      1fr 1fr 9fr 1fr 1fr;
+}
+.imagen{
+    margin-top: 15px;
+    grid-area: imagen;
+}
+.icono-Inicio {
+    margin: 23px 0 auto;
+    font-size: 1.5em;
+    font-weight: 900;
+    grid-area: iconoInicio;
+}
+input[type="text"] {
+    width: 93%;
+    height: 30px;
+    background-color: white;
+    display: block;
+    margin: 10px auto 0 auto;
+    grid-area: busqueda;
+    border: 0;
+    outline: none;
+    visibility: hidden;
+    font-weight: 700;
+    color: rgb(48,48,48,.8);
+}
+.lupa {
+    margin-top: 15px;
+    margin: 23px 0 auto;
+    font-size: 1.5em;
+    font-weight: 900;
+    grid-area: lupa;
+}
