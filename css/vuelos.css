@@ -117,14 +117,14 @@
     grid-area: destino;
   }
   .duracion {
-    margin-left: 100px;
+    margin-left: 80px auto;
     color: rgb(48, 45, 45);
     font-size: .9em;
     width: 100%;
     grid-area: dur;
   }
   .txtduracion{
-    margin-left: 100px;
+    margin-left: 80px auto;
     color: rgb(48, 45, 45);
     font-size: .9em;
     width: 100%;
