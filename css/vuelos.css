@@ -16,7 +16,7 @@
       padding-left: 10px;
   }
   .icono-barra {
-    margin:15px 15px 0 0;
+    margin:2px 5px ;
     font-size: 2em;
     font-weight: bold;
     grid-area: icono-barra;
@@ -30,11 +30,11 @@
     border-radius: 10px;
     box-sizing:border-box;
     border: 1px solid rgba(100, 100, 100); 
-    grid-template: "titulo titulo titulo" 30px 
-                   "label1 txt label2" 32px
-                   "cuidadSal dur destino" 32px
+    grid-template: "titulo titulo titulo" 39px 
+                   "label1 txt label2" 35px
+                   "cuidadSal dur destino" 36px
                    "lineaDiv lineaDiv lineaDiv" 
-                   "infoValor infoValor infoValor" 15px
+                   "infoValor infoValor infoValor" 10px
                    "info info valor" auto/
                      6fr       8fr 1fr;
 }
@@ -79,7 +79,7 @@
     grid-area: txt;
   }
   .dur{
-    width: 100%;
+    width: 10%;
     grid-area: duracion;
   }
 
@@ -115,4 +115,18 @@
     color: rgb(118, 114, 114);
     width: 100%;
     grid-area: destino;
+  }
+  .duracion {
+    margin-left: 100px;
+    color: rgb(48, 45, 45);
+    font-size: .9em;
+    width: 100%;
+    grid-area: dur;
+  }
+  .txtduracion{
+    margin-left: 100px;
+    color: rgb(48, 45, 45);
+    font-size: .9em;
+    width: 100%;
+    grid-area: dur;
   }
